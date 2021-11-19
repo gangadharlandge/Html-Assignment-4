@@ -4,4 +4,39 @@
 .container, .content {
 width: 100%;
 height: 100%;
+margin: none;
+}
+
+.container-1,.container-2{
+    display: table-cell;
+    width: 50%;
+    float: left;
+    margin-bottom: 75px;
+}
+iframe{
+    width: 100%;
+    height: 271px;
+}
+.container-1{
+    background-color: #f2f2f2;
+    height: 271px;
+}
+
+.container-3{
+    text-align: center;
+    margin: 35px 0;
+
+}
+.heading-2{
+    margin-top: 10px;
+    text-align: center;
+}
+#render-dictionary{
+    margin-top: 23px;
+}
+button{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 10px 20px;
 }
